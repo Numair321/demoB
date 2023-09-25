@@ -1,0 +1,54 @@
+ 
+.app {
+    max-width: 800px;
+    height: 40px;
+    margin: 0 auto; /* Center the element horizontally */
+    padding: 10px; /* Add some padding for space inside the element */
+    background-color: #f9f9f9; /* Add a background color */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    transition: background-color 0.3s; /* Add a smooth transition for hover effect */
+  
+    /* Center the text vertically */
+    /* display: flex; */
+    align-items: center;
+  }
+  
+  .app:hover {
+    background-color: #ddd; /* Change background color on hover */
+  }
+  
+  .input-field {
+    width: 50%;
+    padding: 40px;
+    margin-bottom: 80px;
+    border: 2px solid #007bff; /* Add border to the input field */
+    border-radius: 4px; /* Add border radius for a rounded look */
+    text-align: center;
+  
+  }
+  .beer-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .beer-card img {
+    max-width: 100%;
+    max-height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .beer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; /* Add margin to create space between the search bar and cards */
+  }
